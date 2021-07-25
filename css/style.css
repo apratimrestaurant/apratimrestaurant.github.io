@@ -651,15 +651,18 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-custom-2-smal {
-	position: absolute;
-	top: 27%;
-	right: 0;
-	color: #000000;
-	text-align: left;
-	border: 3px solid #D6D6D6;
-	line-height: 1;
-	padding: 9px 28px 7px 17px;
-	background-color: #F9F9F9;
+    position: absolute;
+    top: 21%;
+    right: 0;
+    color: #000000;
+    text-align: left;
+    border: 3px solid #D6D6D6;
+    line-height: 1;
+    padding-top: 0px;
+    padding-right: 28px;
+    padding-left: 17px;
+    padding-bottom: 7px;
+    background-color: #F9F9F9;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -2368,17 +2371,18 @@ textarea.form-input {
 
 h3.product-title {
 	color: #000000;
-	font-weight: 700;
+	font-weight: 400
+		;
 }
 
 .product-img {
-	position: absolute;
-	top: -8px;
-	right: -12px;
-	margin: 0;
-	box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
-	border-radius: 10em;
-	max-width: 50%;
+    position: absolute;
+    top: -38px;
+    right: -102px;
+    margin: 0;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    border-radius: 10em;
+    max-width: 50%;
 }
 
 @media (min-width: 576px) {
@@ -2399,14 +2403,14 @@ h3.product-title {
 }
 
 .product-price-currency {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 500;
 	padding-top: 6px;
 	padding-right: 2px;
 }
 
 .product-price-value {
-	font-size: 80px;
+	font-size: 40px;
 	font-weight: 300;
 	line-height: 1;
 }
